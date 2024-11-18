@@ -22,5 +22,16 @@
   </dependencies>
   <build>
     <finalName>webproj</finalName>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.8.1</version> <!-- Use an appropriate version -->
+        <configuration>
+          <source>1.8</source> <!-- You can change this to 1.7 or another version as needed -->
+          <target>1.8</target> <!-- You can change this to 1.7 or another version as needed -->
+        </configuration>
+      </plugin>
+    </plugins>
   </build>
 </project>
